@@ -8,7 +8,7 @@ mkdir -p ~/${vimdir}/autoload ~/${vimdir}/bundle && \
           curl -LSso ~/${vimdir}/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 echo install symbolic file
-ln -s vimrc ~/.vimrc
+ln -s .jayvim/vimrc ~/.vimrc
 ln -s .jayvim ~/.vim
 ln -s .jayvim/vimrc.map ~/.vimrc.map
 
