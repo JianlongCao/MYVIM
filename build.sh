@@ -7,11 +7,6 @@ echo "install pathogen"
 mkdir -p ~/${vimdir}/autoload ~/${vimdir}/bundle && \
           curl -LSso ~/${vimdir}/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
-echo  -e "\"pathogen \n\
-#execute pathogen#infect() \n\
-#syntax on 		  \n\
-#filetype plugin indent on \n" > vimrc
-
 echo install symbolic file
 ln -s vimrc ~/.vimrc
 ln -s .jayvim ~/.vim
