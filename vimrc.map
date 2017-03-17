@@ -160,3 +160,5 @@ function! LoadCscope()
   endif
 endfunction
 au BufEnter /* call LoadCscope()
+
+:autocmd FileType qf nmap <buffer> <cr> <cr>:lcl<cr>
