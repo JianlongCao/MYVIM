@@ -162,3 +162,9 @@ endfunction
 au BufEnter /* call LoadCscope()
 
 :autocmd FileType qf nmap <buffer> <cr> <cr>:lcl<cr>
+
+nnoremap td  :tabclose<CR>
+" Alternatively use
+nnoremap th :tabnext<CR>
+nnoremap tl :tabprev<CR>
+nnoremap tn :tabnew<CR>
