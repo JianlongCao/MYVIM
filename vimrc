@@ -1,5 +1,6 @@
 "pathogen 
 set nocp
+set encoding=UTF-8
 execute pathogen#infect() 
 syntax on 		  
 filetype plugin indent on 
