@@ -10,7 +10,8 @@ let g:NERDTreeDirArrows=0
 
 " Leaderf
   "toggle
-map <C-p> :Leaderf<CR>
+map <C-p> :Leaderf gtags<CR>  
+let g:Lf_GtagsAutoGenerate = 1
 
 " Nerdcomment
   "comment
