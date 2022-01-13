@@ -14,7 +14,7 @@ ln -s .jayvim/vimrc.map ~/.vimrc.map
 
 cd ~/${vimdir}/bundle
 echo "install nerdtree"
-git clone git://github.com/scrooloose/nerdtree.git
+git clone https://github.com/preservim/nerdtree.git
 
 echo "install leaderf"
 git clone https://github.com/Yggdroot/LeaderF.git
